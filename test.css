@@ -9,24 +9,32 @@
 
 .box{
     
-    background: red;
+    background-color: red;
     width: 110px;
     padding: 20px;
+    height:  110px;
 }
 .box2{
     background-color: blue;
     width: 110px;
     padding: 20px;
+    height:  110px;
 
 }
 .box3{
-    background-color: green;
+    background-color: black;
     width: 110px;
     padding: 20px;
+    height:  110px;
+    
+
 }
 .container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    height: 500px;
+    border: 1px solid gray;
+
 
 }

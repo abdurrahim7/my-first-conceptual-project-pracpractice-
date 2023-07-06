@@ -4,5 +4,29 @@
 }
 .test{
     color: blue;
-    cursor: url="https://images.unsplash.com/photo-1688355791542-3bc6eb957fe9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=469&q=80";
+    cursor: url="https://images.unsplash.com/photo-1688355791542-3bc6eb957fe9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=469&q=80",auto;
+}
+
+.box{
+    
+    background: red;
+    width: 110px;
+    padding: 20px;
+}
+.box2{
+    background-color: blue;
+    width: 110px;
+    padding: 20px;
+
+}
+.box3{
+    background-color: green;
+    width: 110px;
+    padding: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }

@@ -3,7 +3,7 @@
     padding: 0px;
 }
 .menu-container{
-    background-color: black;
+    background-color: gray;
     padding: 20px;
     color: white;
     list-style: none;
@@ -27,4 +27,38 @@
 }
 .item:hover{
     color: blue;
+}
+.bannar-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    border: 2px solid gray;
+    background-image: url("./images/background.png"),
+    linear-gradient(45deg,#000,#000);
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.bannar-img{
+    width: 300px;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.description{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
 }

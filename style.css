@@ -42,6 +42,20 @@
     background-repeat: no-repeat;
 
 }
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+
+}
+.title-about{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 40px;
+    
+}
 .bannar-img{
     width: 300px;
 }

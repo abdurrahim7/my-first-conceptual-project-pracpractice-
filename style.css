@@ -76,3 +76,39 @@
     border: none;
     border-radius: 5px;
 }
+.head{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+.box{
+    width: 230px;
+    height: 320px;
+    box-shadow: 4px 4px 15px gray;
+    text-align: center;
+    background-color: #000;
+    color: white;
+    padding: 15px;
+
+}
+.icon{
+    width: 130px;
+}
+.box-btn{
+    background-color: gray;
+    padding: 10px;
+}
+.rahim{
+    padding: 10px;
+}
+.icon-box{
+    width: 110px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-image: url("./images/background.png"),
+    linear-gradient(45deg,#726b6b,#000);
+}
